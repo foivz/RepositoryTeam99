@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="33ff19c22c2e41348a24b8d254287718" Name="Diagram1">
+        <EntityTypeShape EntityType="piBazaModel.autor" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.autorKnjige" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.clanarina" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.izdavac" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.knjiga" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.korisnik" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.lokacijaKnjige" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.posudivanje" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.racun" Width="1.5" PointX="7.5" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.tipKorisnika" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="piBazaModel.zanr" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="piBazaModel.autorAutorKnjige" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.knjigaAutorKnjige" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.clanarinaKorisnik" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.clanarinaRacun" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.izdavacKnjiga" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.knjigaZanr" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.lokacijaKnjigeKnjiga" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.posudbaKnjiga" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.korisnikPosudba" ManuallyRouted="false" />
+        <AssociationConnector Association="piBazaModel.tipKorisnikaKorisnik" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
