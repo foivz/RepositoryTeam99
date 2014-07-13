@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="piBazaModelStoreContainer" CdmEntityContainer="piBazaEntities">
+    <EntitySetMapping Name="autor">
+      <EntityTypeMapping TypeName="piBazaModel.autor">
+        <MappingFragment StoreEntitySet="autor">
+          <ScalarProperty Name="idAutora" ColumnName="idAutora" />
+          <ScalarProperty Name="ime" ColumnName="ime" />
+          <ScalarProperty Name="prezime" ColumnName="prezime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="autorKnjige">
+      <EntityTypeMapping TypeName="piBazaModel.autorKnjige">
+        <MappingFragment StoreEntitySet="autorKnjige">
+          <ScalarProperty Name="id_zapisa" ColumnName="id_zapisa" />
+          <ScalarProperty Name="knjiga" ColumnName="knjiga" />
+          <ScalarProperty Name="autor" ColumnName="autor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clanarina">
+      <EntityTypeMapping TypeName="piBazaModel.clanarina">
+        <MappingFragment StoreEntitySet="clanarina">
+          <ScalarProperty Name="idClanarina" ColumnName="idClanarina" />
+          <ScalarProperty Name="cijena" ColumnName="cijena" />
+          <ScalarProperty Name="datumPlacanja" ColumnName="datumPlacanja" />
+          <ScalarProperty Name="datumIsteka" ColumnName="datumIsteka" />
+          <ScalarProperty Name="korisnik" ColumnName="korisnik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="izdavac">
+      <EntityTypeMapping TypeName="piBazaModel.izdavac">
+        <MappingFragment StoreEntitySet="izdavac">
+          <ScalarProperty Name="idIzdavaca" ColumnName="idIzdavaca" />
+          <ScalarProperty Name="naziv" ColumnName="naziv" />
+          <ScalarProperty Name="adresa" ColumnName="adresa" />
+          <ScalarProperty Name="kontakt" ColumnName="kontakt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="knjiga">
+      <EntityTypeMapping TypeName="piBazaModel.knjiga">
+        <MappingFragment StoreEntitySet="knjiga">
+          <ScalarProperty Name="idKnjiga" ColumnName="idKnjiga" />
+          <ScalarProperty Name="naziv" ColumnName="naziv" />
+          <ScalarProperty Name="godinaIzdavanja" ColumnName="godinaIzdavanja" />
+          <ScalarProperty Name="izdavac" ColumnName="izdavac" />
+          <ScalarProperty Name="zanr" ColumnName="zanr" />
+          <ScalarProperty Name="lokacijaKnjige" ColumnName="lokacijaKnjige" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="korisnik">
+      <EntityTypeMapping TypeName="piBazaModel.korisnik">
+        <MappingFragment StoreEntitySet="korisnik">
+          <ScalarProperty Name="idKorisnika" ColumnName="idKorisnika" />
+          <ScalarProperty Name="ime" ColumnName="ime" />
+          <ScalarProperty Name="prezime" ColumnName="prezime" />
+          <ScalarProperty Name="korisnickoIme" ColumnName="korisnickoIme" />
+          <ScalarProperty Name="lozinka" ColumnName="lozinka" />
+          <ScalarProperty Name="oib" ColumnName="oib" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="brojTelefona" ColumnName="brojTelefona" />
+          <ScalarProperty Name="tipKorisnika" ColumnName="tipKorisnika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lokacijaKnjige">
+      <EntityTypeMapping TypeName="piBazaModel.lokacijaKnjige">
+        <MappingFragment StoreEntitySet="lokacijaKnjige">
+          <ScalarProperty Name="idLokacije" ColumnName="idLokacije" />
+          <ScalarProperty Name="kat" ColumnName="kat" />
+          <ScalarProperty Name="odjeljak" ColumnName="odjeljak" />
+          <ScalarProperty Name="stalaza" ColumnName="stalaza" />
+          <ScalarProperty Name="polica" ColumnName="polica" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="posudba">
+      <EntityTypeMapping TypeName="piBazaModel.posudivanje">
+        <MappingFragment StoreEntitySet="posudba">
+          <ScalarProperty Name="idPosudbe" ColumnName="idPosudbe" />
+          <ScalarProperty Name="korisnik" ColumnName="korisnik" />
+          <ScalarProperty Name="knjiga" ColumnName="knjiga" />
+          <ScalarProperty Name="datumPosudbe" ColumnName="datumPosudbe" />
+          <ScalarProperty Name="datumVracanja" ColumnName="datumVracanja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="racun">
+      <EntityTypeMapping TypeName="piBazaModel.racun">
+        <MappingFragment StoreEntitySet="racun">
+          <ScalarProperty Name="idRacuna" ColumnName="idRacuna" />
+          <ScalarProperty Name="vrijemeIzdavanja" ColumnName="vrijemeIzdavanja" />
+          <ScalarProperty Name="ukupnaCijena" ColumnName="ukupnaCijena" />
+          <ScalarProperty Name="clanarina" ColumnName="clanarina" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipKorisnika">
+      <EntityTypeMapping TypeName="piBazaModel.tipKorisnika">
+        <MappingFragment StoreEntitySet="tipKorisnika">
+          <ScalarProperty Name="idTip" ColumnName="idTip" />
+          <ScalarProperty Name="naziv" ColumnName="naziv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="zanr">
+      <EntityTypeMapping TypeName="piBazaModel.zanr">
+        <MappingFragment StoreEntitySet="zanr">
+          <ScalarProperty Name="idZanr" ColumnName="idZanr" />
+          <ScalarProperty Name="naziv" ColumnName="naziv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

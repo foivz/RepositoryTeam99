@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26A7782A-32DF-41EA-9A7E-5F32836B833D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Knjižnica</RootNamespace>
+    <AssemblyName>Knjižnica</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Knjižnica</ProductName>
+    <PublisherName>Tim_99</PublisherName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\XML dokumentacija\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\XML dokumentacija\Knjižnica.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Knjižnica.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>73351F6A676720F433D29A200C059BE4BEFE143F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Knjižnica_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="autor.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="autorKnjige.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="clanarina.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDKorisnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDKorisnik.Designer.cs">
+      <DependentUpon>CRUDKorisnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDPosudba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDPosudba.Designer.cs">
+      <DependentUpon>CRUDPosudba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDRacun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDRacun.Designer.cs">
+      <DependentUpon>CRUDRacun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IzbornikUrediBazu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzbornikUrediBazu.Designer.cs">
+      <DependentUpon>IzbornikUrediBazu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDAutor.Designer.cs">
+      <DependentUpon>CRUDAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvidencijaKnjiznica.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvidencijaKnjiznica.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EvidencijaKnjiznica.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EvidencijaKnjiznica.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EvidencijaKnjiznica.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Izbornik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izbornik.Designer.cs">
+      <DependentUpon>Izbornik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="izdavac.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Izrada računa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izrada računa.Designer.cs">
+      <DependentUpon>Izrada računa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="knjiga.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="korisnik.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="lokacijaKnjige.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="piBazaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>piBazaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Posudba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Posudba.Designer.cs">
+      <DependentUpon>Posudba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="posudivanje.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pregled slobodnih knjiga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pregled slobodnih knjiga.Designer.cs">
+      <DependentUpon>Pregled slobodnih knjiga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pretrazivanje po naslovu knjige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pretrazivanje po naslovu knjige.Designer.cs">
+      <DependentUpon>Pretrazivanje po naslovu knjige.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDClanarina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDClanarina.Designer.cs">
+      <DependentUpon>CRUDClanarina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDKnjiga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDKnjiga.Designer.cs">
+      <DependentUpon>CRUDKnjiga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDLokacija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDLokacija.Designer.cs">
+      <DependentUpon>CRUDLokacija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDZanr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDZanr.Designer.cs">
+      <DependentUpon>CRUDZanr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pretraživanje knjige po autoru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pretraživanje knjige po autoru.Designer.cs">
+      <DependentUpon>Pretraživanje knjige po autoru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pretraživanje knjige po žanru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pretraživanje knjige po žanru.Designer.cs">
+      <DependentUpon>Pretraživanje knjige po žanru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pretraživanje lokacije knjige prema nazivu knjige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pretraživanje lokacije knjige prema nazivu knjige.Designer.cs">
+      <DependentUpon>Pretraživanje lokacije knjige prema nazivu knjige.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUDIzdavac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUDIzdavac.Designer.cs">
+      <DependentUpon>CRUDIzdavac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prijava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prijava.Designer.cs">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="racun.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Registracija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registracija.Designer.cs">
+      <DependentUpon>Registracija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrirani korisnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrirani korisnik.Designer.cs">
+      <DependentUpon>Registrirani korisnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tipKorisnika.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Unos autora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unos autora.Designer.cs">
+      <DependentUpon>Unos autora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unos izdavača.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unos izdavača.Designer.cs">
+      <DependentUpon>Unos izdavača.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unos knjige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unos knjige.Designer.cs">
+      <DependentUpon>Unos knjige.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unos lokacije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unos lokacije.Designer.cs">
+      <DependentUpon>Unos lokacije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unos žanra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unos žanra.Designer.cs">
+      <DependentUpon>Unos žanra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zanr.cs">
+      <DependentUpon>EvidencijaKnjiznica.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik.Designer.cs">
+      <DependentUpon>Zaposlenik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Članarina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Članarina.Designer.cs">
+      <DependentUpon>Članarina.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CRUDKorisnik.resx">
+      <DependentUpon>CRUDKorisnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUDPosudba.resx">
+      <DependentUpon>CRUDPosudba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUDRacun.resx">
+      <DependentUpon>CRUDRacun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzbornikUrediBazu.resx">
+      <DependentUpon>IzbornikUrediBazu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUDAutor.resx">
+      <DependentUpon>CRUDAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izbornik.resx">
+      <DependentUpon>Izbornik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izrada računa.resx">
+      <DependentUpon>Izrada računa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Posudba.resx">
+      <DependentUpon>Posudba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pregled slobodnih knjiga.resx">
+      <DependentUpon>Pregled slobodnih knjiga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pretrazivanje po naslovu knjige.resx">
+      <DependentUpon>Pretrazivanje po naslovu knjige.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUDClanarina.resx">
+      <DependentUpon>CRUDClanarina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUDKnjiga.resx">
+      <DependentUpon>CRUDKnjiga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUDLokacija.resx">
+      <DependentUpon>CRUDLokacija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUDZanr.resx">
+      <DependentUpon>CRUDZanr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pretraživanje knjige po autoru.resx">
+      <DependentUpon>Pretraživanje knjige po autoru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pretraživanje knjige po žanru.resx">
+      <DependentUpon>Pretraživanje knjige po žanru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pretraživanje lokacije knjige prema nazivu knjige.resx">
+      <DependentUpon>Pretraživanje lokacije knjige prema nazivu knjige.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUDIzdavac.resx">
+      <DependentUpon>CRUDIzdavac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prijava.resx">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Registracija.resx">
+      <DependentUpon>Registracija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrirani korisnik.resx">
+      <DependentUpon>Registrirani korisnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Unos autora.resx">
+      <DependentUpon>Unos autora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unos izdavača.resx">
+      <DependentUpon>Unos izdavača.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unos knjige.resx">
+      <DependentUpon>Unos knjige.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unos lokacije.resx">
+      <DependentUpon>Unos lokacije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unos žanra.resx">
+      <DependentUpon>Unos žanra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik.resx">
+      <DependentUpon>Zaposlenik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Članarina.resx">
+      <DependentUpon>Članarina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="EvidencijaKnjiznica.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>EvidencijaKnjiznica.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="EvidencijaKnjiznica.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EvidencijaKnjiznica.edmx</DependentUpon>
+      <LastGenOutput>EvidencijaKnjiznica.Context.cs</LastGenOutput>
+    </None>
+    <None Include="EvidencijaKnjiznica.edmx.diagram">
+      <DependentUpon>EvidencijaKnjiznica.edmx</DependentUpon>
+    </None>
+    <None Include="EvidencijaKnjiznica.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EvidencijaKnjiznica.edmx</DependentUpon>
+      <LastGenOutput>EvidencijaKnjiznica.cs</LastGenOutput>
+    </None>
+    <None Include="Knjižnica_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="piBazaDataSet.xsc">
+      <DependentUpon>piBazaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="piBazaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>piBazaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="piBazaDataSet.xss">
+      <DependentUpon>piBazaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\autor.datasource" />
+    <None Include="Properties\DataSources\autorKnjige.datasource" />
+    <None Include="Properties\DataSources\clanarina.datasource" />
+    <None Include="Properties\DataSources\izdavac.datasource" />
+    <None Include="Properties\DataSources\knjiga.datasource" />
+    <None Include="Properties\DataSources\korisnik.datasource" />
+    <None Include="Properties\DataSources\lokacijaKnjige.datasource" />
+    <None Include="Properties\DataSources\posudivanje.datasource" />
+    <None Include="Properties\DataSources\racun.datasource" />
+    <None Include="Properties\DataSources\zanr.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="piBaza.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="piBazaModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="piBazaModelStoreContainer">
+    <EntitySet Name="autor" EntityType="piBazaModel.Store.autor" store:Type="Tables" />
+    <EntitySet Name="autorKnjige" EntityType="piBazaModel.Store.autorKnjige" store:Type="Tables" />
+    <EntitySet Name="clanarina" EntityType="piBazaModel.Store.clanarina" store:Type="Tables" />
+    <EntitySet Name="izdavac" EntityType="piBazaModel.Store.izdavac" store:Type="Tables" />
+    <EntitySet Name="knjiga" EntityType="piBazaModel.Store.knjiga" store:Type="Tables" />
+    <EntitySet Name="korisnik" EntityType="piBazaModel.Store.korisnik" store:Type="Tables" />
+    <EntitySet Name="lokacijaKnjige" EntityType="piBazaModel.Store.lokacijaKnjige" store:Type="Tables" />
+    <EntitySet Name="posudba" EntityType="piBazaModel.Store.posudba" store:Type="Tables" />
+    <EntitySet Name="racun" EntityType="piBazaModel.Store.racun" store:Type="Tables" />
+    <EntitySet Name="tipKorisnika" EntityType="piBazaModel.Store.tipKorisnika" store:Type="Tables" />
+    <EntitySet Name="zanr" EntityType="piBazaModel.Store.zanr" store:Type="Tables" />
+    <AssociationSet Name="autorAutorKnjige" Association="piBazaModel.Store.autorAutorKnjige">
+      <End Role="autor" EntitySet="autor" />
+      <End Role="autorKnjige" EntitySet="autorKnjige" />
+    </AssociationSet>
+    <AssociationSet Name="clanarinaKorisnik" Association="piBazaModel.Store.clanarinaKorisnik">
+      <End Role="korisnik" EntitySet="korisnik" />
+      <End Role="clanarina" EntitySet="clanarina" />
+    </AssociationSet>
+    <AssociationSet Name="clanarinaRacun" Association="piBazaModel.Store.clanarinaRacun">
+      <End Role="clanarina" EntitySet="clanarina" />
+      <End Role="racun" EntitySet="racun" />
+    </AssociationSet>
+    <AssociationSet Name="izdavacKnjiga" Association="piBazaModel.Store.izdavacKnjiga">
+      <End Role="izdavac" EntitySet="izdavac" />
+      <End Role="knjiga" EntitySet="knjiga" />
+    </AssociationSet>
+    <AssociationSet Name="knjigaAutorKnjige" Association="piBazaModel.Store.knjigaAutorKnjige">
+      <End Role="knjiga" EntitySet="knjiga" />
+      <End Role="autorKnjige" EntitySet="autorKnjige" />
+    </AssociationSet>
+    <AssociationSet Name="knjigaZanr" Association="piBazaModel.Store.knjigaZanr">
+      <End Role="zanr" EntitySet="zanr" />
+      <End Role="knjiga" EntitySet="knjiga" />
+    </AssociationSet>
+    <AssociationSet Name="korisnikPosudba" Association="piBazaModel.Store.korisnikPosudba">
+      <End Role="korisnik" EntitySet="korisnik" />
+      <End Role="posudba" EntitySet="posudba" />
+    </AssociationSet>
+    <AssociationSet Name="lokacijaKnjigeKnjiga" Association="piBazaModel.Store.lokacijaKnjigeKnjiga">
+      <End Role="lokacijaKnjige" EntitySet="lokacijaKnjige" />
+      <End Role="knjiga" EntitySet="knjiga" />
+    </AssociationSet>
+    <AssociationSet Name="posudbaKnjiga" Association="piBazaModel.Store.posudbaKnjiga">
+      <End Role="knjiga" EntitySet="knjiga" />
+      <End Role="posudba" EntitySet="posudba" />
+    </AssociationSet>
+    <AssociationSet Name="tipKorisnikaKorisnik" Association="piBazaModel.Store.tipKorisnikaKorisnik">
+      <End Role="tipKorisnika" EntitySet="tipKorisnika" />
+      <End Role="korisnik" EntitySet="korisnik" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="autor">
+    <Key>
+      <PropertyRef Name="idAutora" />
+    </Key>
+    <Property Name="idAutora" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ime" Type="nvarchar" Nullable="false" MaxLength="25" />
+    <Property Name="prezime" Type="nvarchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="autorKnjige">
+    <Key>
+      <PropertyRef Name="id_zapisa" />
+    </Key>
+    <Property Name="id_zapisa" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="knjiga" Type="int" Nullable="false" />
+    <Property Name="autor" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="clanarina">
+    <Key>
+      <PropertyRef Name="idClanarina" />
+    </Key>
+    <Property Name="idClanarina" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cijena" Type="int" Nullable="false" />
+    <Property Name="datumPlacanja" Type="datetime" Nullable="false" />
+    <Property Name="datumIsteka" Type="datetime" Nullable="false" />
+    <Property Name="korisnik" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="izdavac">
+    <Key>
+      <PropertyRef Name="idIzdavaca" />
+    </Key>
+    <Property Name="idIzdavaca" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="naziv" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="adresa" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="kontakt" Type="nvarchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="knjiga">
+    <Key>
+      <PropertyRef Name="idKnjiga" />
+    </Key>
+    <Property Name="idKnjiga" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="naziv" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="godinaIzdavanja" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="izdavac" Type="int" Nullable="false" />
+    <Property Name="zanr" Type="int" Nullable="false" />
+    <Property Name="lokacijaKnjige" Type="int" Nullable="false" />
+    <Property Name="kolicina" Type="int" />
+    <Property Name="trenutnaKolicina" Type="int" />
+  </EntityType>
+  <EntityType Name="korisnik">
+    <Key>
+      <PropertyRef Name="idKorisnika" />
+    </Key>
+    <Property Name="idKorisnika" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ime" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="prezime" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="korisnickoIme" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="lozinka" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="oib" Type="nvarchar" Nullable="false" MaxLength="11" />
+    <Property Name="email" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="brojTelefona" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="tipKorisnika" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lokacijaKnjige">
+    <Key>
+      <PropertyRef Name="idLokacije" />
+    </Key>
+    <Property Name="idLokacije" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="kat" Type="int" Nullable="false" />
+    <Property Name="odjeljak" Type="nvarchar" MaxLength="30" />
+    <Property Name="stalaza" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="polica" Type="nvarchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="posudba">
+    <Key>
+      <PropertyRef Name="idPosudbe" />
+    </Key>
+    <Property Name="idPosudbe" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="korisnik" Type="int" Nullable="false" />
+    <Property Name="knjiga" Type="int" Nullable="false" />
+    <Property Name="datumPosudbe" Type="datetime" />
+    <Property Name="datumVracanja" Type="datetime" />
+  </EntityType>
+  <EntityType Name="racun">
+    <Key>
+      <PropertyRef Name="idRacuna" />
+    </Key>
+    <Property Name="idRacuna" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="vrijemeIzdavanja" Type="datetime" Nullable="false" />
+    <Property Name="ukupnaCijena" Type="int" Nullable="false" />
+    <Property Name="clanarina" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tipKorisnika">
+    <Key>
+      <PropertyRef Name="idTip" />
+    </Key>
+    <Property Name="idTip" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="naziv" Type="nvarchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="zanr">
+    <Key>
+      <PropertyRef Name="idZanr" />
+    </Key>
+    <Property Name="idZanr" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="naziv" Type="nvarchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <Association Name="autorAutorKnjige">
+    <End Role="autor" Type="piBazaModel.Store.autor" Multiplicity="1" />
+    <End Role="autorKnjige" Type="piBazaModel.Store.autorKnjige" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="autor">
+        <PropertyRef Name="idAutora" />
+      </Principal>
+      <Dependent Role="autorKnjige">
+        <PropertyRef Name="autor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="clanarinaKorisnik">
+    <End Role="korisnik" Type="piBazaModel.Store.korisnik" Multiplicity="1" />
+    <End Role="clanarina" Type="piBazaModel.Store.clanarina" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="korisnik">
+        <PropertyRef Name="idKorisnika" />
+      </Principal>
+      <Dependent Role="clanarina">
+        <PropertyRef Name="korisnik" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="clanarinaRacun">
+    <End Role="clanarina" Type="piBazaModel.Store.clanarina" Multiplicity="1" />
+    <End Role="racun" Type="piBazaModel.Store.racun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clanarina">
+        <PropertyRef Name="idClanarina" />
+      </Principal>
+      <Dependent Role="racun">
+        <PropertyRef Name="clanarina" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="izdavacKnjiga">
+    <End Role="izdavac" Type="piBazaModel.Store.izdavac" Multiplicity="1" />
+    <End Role="knjiga" Type="piBazaModel.Store.knjiga" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="izdavac">
+        <PropertyRef Name="idIzdavaca" />
+      </Principal>
+      <Dependent Role="knjiga">
+        <PropertyRef Name="izdavac" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="knjigaAutorKnjige">
+    <End Role="knjiga" Type="piBazaModel.Store.knjiga" Multiplicity="1" />
+    <End Role="autorKnjige" Type="piBazaModel.Store.autorKnjige" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="knjiga">
+        <PropertyRef Name="idKnjiga" />
+      </Principal>
+      <Dependent Role="autorKnjige">
+        <PropertyRef Name="knjiga" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="knjigaZanr">
+    <End Role="zanr" Type="piBazaModel.Store.zanr" Multiplicity="1" />
+    <End Role="knjiga" Type="piBazaModel.Store.knjiga" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="zanr">
+        <PropertyRef Name="idZanr" />
+      </Principal>
+      <Dependent Role="knjiga">
+        <PropertyRef Name="zanr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="korisnikPosudba">
+    <End Role="korisnik" Type="piBazaModel.Store.korisnik" Multiplicity="1" />
+    <End Role="posudba" Type="piBazaModel.Store.posudba" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="korisnik">
+        <PropertyRef Name="idKorisnika" />
+      </Principal>
+      <Dependent Role="posudba">
+        <PropertyRef Name="korisnik" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="lokacijaKnjigeKnjiga">
+    <End Role="lokacijaKnjige" Type="piBazaModel.Store.lokacijaKnjige" Multiplicity="1" />
+    <End Role="knjiga" Type="piBazaModel.Store.knjiga" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lokacijaKnjige">
+        <PropertyRef Name="idLokacije" />
+      </Principal>
+      <Dependent Role="knjiga">
+        <PropertyRef Name="lokacijaKnjige" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="posudbaKnjiga">
+    <End Role="knjiga" Type="piBazaModel.Store.knjiga" Multiplicity="1" />
+    <End Role="posudba" Type="piBazaModel.Store.posudba" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="knjiga">
+        <PropertyRef Name="idKnjiga" />
+      </Principal>
+      <Dependent Role="posudba">
+        <PropertyRef Name="knjiga" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tipKorisnikaKorisnik">
+    <End Role="tipKorisnika" Type="piBazaModel.Store.tipKorisnika" Multiplicity="1" />
+    <End Role="korisnik" Type="piBazaModel.Store.korisnik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tipKorisnika">
+        <PropertyRef Name="idTip" />
+      </Principal>
+      <Dependent Role="korisnik">
+        <PropertyRef Name="tipKorisnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
