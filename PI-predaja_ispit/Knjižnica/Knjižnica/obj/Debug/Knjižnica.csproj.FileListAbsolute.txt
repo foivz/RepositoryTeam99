@@ -1,0 +1,380 @@
+C:\Users\Luka\AppData\Local\Temporary Projects\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzbornik.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Izrada_računa.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Posudba.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_knjige_po_autoru.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_knjige_po_žanru.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_korisnika_prema_korisničkom_imenu.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_lokacije_knjige_prema_nazivu_knjige.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_po_nazivu_knjige.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmRegistracija.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_autora.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_izdavača.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_knjige.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_lokacije.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_žanra.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Članarina.resources
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\Knjižnica\Knjižnica\obj\Debug\Knjižnica.registriraniKorisnik.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzbornik.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Izrada_računa.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Posudba.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_knjige_po_autoru.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_knjige_po_žanru.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_korisnika_prema_korisničkom_imenu.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_lokacije_knjige_prema_nazivu_knjige.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Pretraživanje_po_nazivu_knjige.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmRegistracija.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.registriraniKorisnik.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_autora.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_izdavača.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_knjige.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_lokacije.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Unos_žanra.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Članarina.resources
+C:\Users\Luka\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\PI - završna verzija\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Ivan\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Ivan\Desktop\PI - završna verzija\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Izrada_računa.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmRegistracija.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Luka\Desktop\PI\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Luka\Desktop\Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Luka\Desktop\Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Luka\Desktop\Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Luka\Desktop\Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKorisnikKorIme.resources
+C:\Users\Luka\Desktop\Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Luka\Desktop\Pi\Knjižnica\Knjižnica\bin\Debug\piBaza.sdf
+C:\Users\Luka\Desktop\Pi\Knjižnica\Knjižnica\bin\Debug\EntityFramework.dll
+C:\Users\Luka\Desktop\Pi\Knjižnica\Knjižnica\bin\Debug\EntityFramework.xml
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\bin\Debug\piBaza.sdf
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\bin\Debug\EntityFramework.dll
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\bin\Debug\EntityFramework.xml
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistracija.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzradaRacuna.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.IzbornikUrediBazu.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDAutor.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDClanarina.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKnjiga.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDLokacija.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDZanr.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDIzdavac.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKorisnik.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDPosudba.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDRacun.resources
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Luka\Desktop\Programsko - projekt\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPregledSlobodnihKnjiga.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKorisnik.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDPosudba.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDRacun.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.IzbornikUrediBazu.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDAutor.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzradaRacuna.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPregledSlobodnihKnjiga.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDClanarina.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKnjiga.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDLokacija.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDZanr.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDIzdavac.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistracija.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\RdlCompile.cache
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\obj\Debug\RdlCompile.compiled
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\bin\Debug\piBaza.sdf
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\bin\Debug\EntityFramework.dll
+C:\Users\Nino\Desktop\Zadnje Pi\Knjižnica\Knjižnica\bin\Debug\EntityFramework.xml
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\piBaza.sdf
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\EntityFramework.dll
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\EntityFramework.xml
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKorisnik.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDPosudba.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDRacun.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.IzbornikUrediBazu.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDAutor.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzradaRacuna.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPregledSlobodnihKnjiga.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDClanarina.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKnjiga.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDLokacija.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDZanr.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDIzdavac.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistracija.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\RdlCompile.cache
+C:\Users\Luka\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\RdlCompile.compiled
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe.config
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\piBaza.sdf
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\Knjižnica.exe
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\Knjižnica.pdb
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\EntityFramework.dll
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\bin\Debug\EntityFramework.xml
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKorisnik.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDPosudba.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDRacun.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.IzbornikUrediBazu.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDAutor.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzradaRacuna.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPregledSlobodnihKnjiga.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDClanarina.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKnjiga.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDLokacija.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDZanr.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDIzdavac.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistracija.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\RdlCompile.cache
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\Knjižnica\Knjižnica\obj\Debug\RdlCompile.compiled
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\XML dokumentacija\Knjižnica.exe.config
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\XML dokumentacija\piBaza.sdf
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\XML dokumentacija\Knjižnica.XML
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\XML dokumentacija\Knjižnica.exe
+C:\Users\Nino\Desktop\Završna verzija - Programsko inženjerstvo - Tim99\XML dokumentacija\Knjižnica.pdb
+C:\Users\Luka\Desktop\Popravni\XML dokumentacija\Knjižnica.exe.config
+C:\Users\Luka\Desktop\Popravni\XML dokumentacija\Knjižnica.XML
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Luka\Desktop\Popravni\XML dokumentacija\piBaza.sdf
+C:\Users\Luka\Desktop\Popravni\XML dokumentacija\Knjižnica.exe
+C:\Users\Luka\Desktop\Popravni\XML dokumentacija\Knjižnica.pdb
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKorisnik.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDPosudba.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDRacun.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.IzbornikUrediBazu.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDAutor.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzradaRacuna.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPregledSlobodnihKnjiga.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDClanarina.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKnjiga.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDLokacija.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDZanr.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDIzdavac.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistracija.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\RdlCompile.cache
+C:\Users\Luka\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\RdlCompile.compiled
+C:\Users\Nino\Desktop\Popravni\XML dokumentacija\Knjižnica.exe.config
+C:\Users\Nino\Desktop\Popravni\XML dokumentacija\Knjižnica.XML
+C:\Users\Nino\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Nino\Desktop\Popravni\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Nino\Desktop\Popravni - Copy\XML dokumentacija\Knjižnica.exe.config
+C:\Users\Nino\Desktop\Popravni - Copy\XML dokumentacija\Knjižnica.XML
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Nino\Desktop\Popravni - Copy\XML dokumentacija\piBaza.sdf
+C:\Users\Nino\Desktop\Popravni - Copy\XML dokumentacija\Knjižnica.exe
+C:\Users\Nino\Desktop\Popravni - Copy\XML dokumentacija\Knjižnica.pdb
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKorisnik.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDPosudba.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDRacun.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.IzbornikUrediBazu.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDAutor.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzradaRacuna.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPregledSlobodnihKnjiga.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDClanarina.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKnjiga.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDLokacija.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDZanr.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDIzdavac.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistracija.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\RdlCompile.cache
+C:\Users\Nino\Desktop\Popravni - Copy\Knjižnica\Knjižnica\obj\Debug\RdlCompile.compiled
+C:\Users\Nino\Desktop\PI-predaja\XML dokumentacija\Knjižnica.exe.config
+C:\Users\Nino\Desktop\PI-predaja\XML dokumentacija\Knjižnica.XML
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Nino\Desktop\PI-predaja\XML dokumentacija\piBaza.sdf
+C:\Users\Nino\Desktop\PI-predaja\XML dokumentacija\Knjižnica.exe.manifest
+C:\Users\Nino\Desktop\PI-predaja\XML dokumentacija\Knjižnica.application
+C:\Users\Nino\Desktop\PI-predaja\XML dokumentacija\Knjižnica.exe
+C:\Users\Nino\Desktop\PI-predaja\XML dokumentacija\Knjižnica.pdb
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKorisnik.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDPosudba.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDRacun.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.IzbornikUrediBazu.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDAutor.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzradaRacuna.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPregledSlobodnihKnjiga.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDClanarina.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKnjiga.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDLokacija.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDZanr.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDIzdavac.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistracija.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\RdlCompile.cache
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\RdlCompile.compiled
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe.manifest
+C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.application

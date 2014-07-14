@@ -1,0 +1,1652 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Knjižnica</name>
+    </assembly>
+    <members>
+        <member name="M:Knjižnica.CRUDKorisnik.PrikaziKorisnika">
+            <summary>
+            Funkcija za prikazivanje podataka iz baze o korisnicima
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDKorisnik.CRUDKorisnik_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Shown" pokrece funkciju PrikaziKorisnika
+            </summary>
+            <param name="sender">Referenca na formu CRUDKorisnik</param>
+            <param name="e">Dodatni podaci o događaju Shown</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDKorisnik.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" izlazi iz forme CRUDKorisnik
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDKorisnik.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brise podatke o korisniku iz baze podataka
+            </summary>
+            <param name="sender">Referenca na gumb btnObrisi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDKorisnik.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDKorisnik.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDKorisnik.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDPosudba.PrikaziPosudbu">
+            <summary>
+            Funkcija za prikaz podataka o posudbi iz baze podataka
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDPosudba.CRUDPosudba_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Shown" pokrece funckiju PrikaziPosudbu
+            </summary>
+            <param name="sender">Referenca na formu CRUDPosudba</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDPosudba.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" izlazi iz forme CRUDPosudba
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDPosudba.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brise podatke iz baze o posudbi
+            </summary>
+            <param name="sender">Referenca na gumb btnObrisi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDPosudba.brojac">
+            <summary>
+            Na događaj "Click" pretrazuje podatke iz baze iz tablice posudba
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDPosudba.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDPosudba.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDPosudba.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDRacun.PrikaziRacun">
+            <summary>
+            Funkcija za prikaz podataka o racunu iz baze podataka
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDRacun.CRUDRacun_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load" pokrece funkciju PrikaziRacun
+            </summary>
+            <param name="sender">Referenca na formu CRUDRacun</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDRacun.btnPretrazi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" pretrazuje tablicu Racun iz baze podataka
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDRacun.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brise podatke iz baze iz tablice Racun
+            </summary>
+            <param name="sender">Referenca na gumb btnObris</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDRacun.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDRacun.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDRacun.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnIzdavac_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD izdavac
+            </summary>
+            <param name="sender">Referenca na gumb btnIzdavac</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnZanr_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD izdavac
+            </summary>
+            <param name="sender">Referenca na gumb btnIzdavac</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnLokacija_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD lokacija
+            </summary>
+            <param name="sender">Referenca na gumb btnLokacij</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnAutor_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD Autor
+            </summary>
+            <param name="sender">Referenca na gumb btnAutor</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnPosudba_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD Posudba
+            </summary>
+            <param name="sender">Referenca na gumb btnPosudba</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnClanarina_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD Clanarina
+            </summary>
+            <param name="sender">Referenca na gumb btnClanarina</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnKorisici_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD Korisici
+            </summary>
+            <param name="sender">Referenca na gumb btnKorisici</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnKnjige_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD Knjige
+            </summary>
+            <param name="sender">Referenca na gumb btnKnjige</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  zatvara izbornik "IzbornikUrediBazu"
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.btnRacun_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu CRUD Racun
+            </summary>
+            <param name="sender">Referenca na gumb btnRacun</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.IzbornikUrediBazu.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.IzbornikUrediBazu.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDAutor.PrikaziAutora">
+            <summary>
+            Funkcija za prikaz autora
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDAutor.CrudAutor_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load" pokrece funkciju "PrikaziAutora"
+            </summary>
+            <param name="sender">Referenca na formu CrudAutor</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDAutor.btnPretrazi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" pretrazuje bazu prema nazivu autora
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDAutor.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu CRUDAutor
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDAutor.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brisi podatke iz tablice Autori
+            </summary>
+            <param name="sender">Referenca na gumb btnObrisi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDAutor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDAutor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDAutor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmIzbornik.Button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  otvara formu za prijavu "Prijava"
+            </summary>
+            <param name="sender">Referenca na gumb Button_1</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmIzbornik.Button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  zatvara glavni izbornik "Izbornik"
+            </summary>
+            <param name="sender">Referenca na gumb Button2</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmIzbornik.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmIzbornik.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmIzbornik.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.frmIzradaRacuna.frmIzradaRacuna_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load"  priprema podatke za upisu u bazu
+            </summary>
+            <param name="sender">Referenca na formu FrmIzradaRacuna</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.frmIzradaRacuna.cmbSifraClanarine_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "SelectedIndexChanged"  input sa podacimas
+            </summary>
+            <param name="sender">Referenca na combobox cmbSifraClanarine</param>
+            <param name="e">Dodatni podaci o događaju SelectedIndexChanged</param>
+            
+        </member>
+        <member name="M:Knjižnica.frmIzradaRacuna.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  salje podatke u bazu u tablicu "Racun"
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.frmIzradaRacuna.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  zatvara formu za kreiranje racuna
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.frmIzradaRacuna.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.frmIzradaRacuna.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.frmIzradaRacuna.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.autorDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.autorKnjigeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.clanarinaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.izdavacDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.knjigaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.korisnikDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.lokacijaKnjigeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.posudbaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.racunDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.tipKorisnikaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.zanrDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.autorRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.autorKnjigeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.clanarinaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.izdavacRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.knjigaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.korisnikRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.lokacijaKnjigeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.posudbaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.racunRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.tipKorisnikaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.zanrRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.autorRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.autorKnjigeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.clanarinaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.izdavacRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.knjigaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.korisnikRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.lokacijaKnjigeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.posudbaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.racunRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.tipKorisnikaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSet.zanrRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.autorTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.autorKnjigeTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.clanarinaTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.izdavacTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.knjigaTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.korisnikTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.lokacijaKnjigeTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.posudbaTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.racunTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.tipKorisnikaTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.zanrTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:Knjižnica.piBazaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Knjižnica.piBazaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.piBazaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Knjižnica.piBazaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.piBazaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Knjižnica.piBazaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.piBazaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:Knjižnica.piBazaDataSetTableAdapters.TableAdapterManager.UpdateAll(Knjižnica.piBazaDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:Knjižnica.piBazaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmPosudba.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  upisuje podatke u bazu u tablucu "Posudivanje"
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmPosudba.FrmPosudba_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load"  priprema formu za unos podataka
+            </summary>
+            <param name="sender">Referenca na formu FrmPosudba</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmPosudba.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  zatvara formu za unos nove posudbe "frmPosudba"
+            </summary>
+            <param name="sender">Referenca gumbIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmPosudba.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmPosudba.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmPosudba.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Knjižnica.frmPregledSlobodnihKnjiga.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.frmPregledSlobodnihKnjiga.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.frmPregledSlobodnihKnjiga.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNaslovu.PrikaziKnjige">
+            <summary>
+            Funkcija za prikazivanje podataka o knjizi
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNaslovu.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  zatvara formu za pretrazivanje knjige po naslovu
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNaslovu.FrmKnjigaPoNaslovu_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load"  pokrece funkciju PrikaziKnjige
+            </summary>
+            <param name="sender">Referenca na formu FrmKnjigaPoNaslovu</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNaslovu.btnPretrazi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  pretrazuje knjigu po naslovu knjige
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNaslovu.FrmKnjigaPoNaslovu_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Shown"  pokrece funkciju PrikaziKnjige
+            </summary>
+            <param name="sender">Referenca na formu FrmKnjigaPoAutoru</param>
+            <param name="e">Dodatni podaci o događaju Shown</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmKnjigaPoNaslovu.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNaslovu.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNaslovu.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDClanarina.PrikaziClanarine">
+            <summary>
+            Funkcija za prikaz podataka o clanarini iz baze
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDClanarina.CRUDClanarina_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Shown" pokrece funckiju PrikaziClanarine
+            </summary>
+            <param name="sender">Referenca na formu CRUDCLanarina</param>
+            <param name="e">Dodatni podaci o događaju Shown</param>
+                   
+        </member>
+        <member name="M:Knjižnica.CRUDClanarina.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" izlazi iz forme CRUDClanarina
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDClanarina.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brise podatke iz tablice Clanarina
+            </summary>
+            <param name="sender">Referenca na gumb btnObrisi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDClanarina.brojac">
+            <summary>
+            Na događaj "Click" pretrazuje tablica clanarine prema korisnickom imenu korisnika
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDClanarina.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDClanarina.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDClanarina.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDKnjiga.PrikaziKnjige">
+            <summary>
+             Funkcija za prikaz podataka o knjizi iz baze iz tablice "Knjiga"
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDKnjiga.CRUDKnjiga_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" pokrece funkciju PrikaziKnjige();
+            </summary>
+            <param name="sender">Referenca na formu CRUDKnjiga</param>
+            <param name="e">Dodatni podaci o događaju Shown</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDKnjiga.btnPretrazi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" pretrazuje knjigu prema nazivu knjige
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDKnjiga.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" izlazi iz forme CRUDKnjiga
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDKnjiga.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brise podatke o knjizi iz baze
+            </summary>
+            <param name="sender">Referenca na gumb btnObrisi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDKnjiga.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDKnjiga.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDKnjiga.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDLokacija.PrikaziLokaciju">
+            <summary>
+            Funkcija za prikazivanje podataka o lokaciji iz baze podataka
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDLokacija.PretrazivanjeLokacija_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load" pokrece funkciju PrikaziLokaciju
+            </summary>
+            <param name="sender">Referenca na formu CRUDLokacija</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDLokacija.btnPretrazi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" pretrazuje tablicu lokacija po katu 
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDLokacija.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" izlazi iz forme CRUDLokacij
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDLokacija.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brise podatke iz tablice lokacija iz baze
+            </summary>
+            <param name="sender">Referenca na gumb btnObrisi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDLokacija.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDLokacija.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDLokacija.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDZanr.PrikaziZanr">
+            <summary>
+            Funkcija za prikazivanje podataka o zanru iz baze podataka
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDZanr.btnPretrazi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" pretrazuje podatke iz baze o Zanru
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDZanr.PretrazivanjeZanra_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load" pretrazuje podatke iz baze o zanru
+            </summary>
+            <param name="sender">Referenca na formu CRUDZanr</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDZanr.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" izlazi iz forme CRUDZanr
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDZanr.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brise podatke iz tablice Zanr iz baze podataka
+            </summary>
+            <param name="sender">Referenca na gumb btnObrisi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDZanr.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDZanr.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDZanr.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Knjižnica.FrmKnjigaPoAutoru.brojac">
+            <summary>
+            Na događaj "Click"  pretrazuje knjigu po autoru
+            </summary>
+            <param name="sender">Referenca na gumb btn Pretrazi</param>
+            <param name="e">Dodatni podaci o događaju Pretrazi</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoAutoru.FrmKnjigaPoAutoru_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Shown"  pokrece funkciju PrikaziKnjige
+            </summary>
+            <param name="sender">Referenca na formu FrmKnjigaPoAutoru</param>
+            <param name="e">Dodatni podaci o događaju Shown</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoAutoru.PrikaziKnjige">
+            <summary>
+            Funkcija za prikaz podataka o knjizi
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoAutoru.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu za pretraživanje knjige po autoru
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmKnjigaPoAutoru.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoAutoru.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoAutoru.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoZanru.PrikaziZanr">
+            <summary>
+            Funkcija za prikazivanje zanrova
+            </summary>
+            
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Knjižnica.FrmKnjigaPoZanru.PrikaziKnjigu(Knjižnica.zanr)" -->
+        <member name="M:Knjižnica.FrmKnjigaPoZanru.FrmKnjigaPoZanru_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load" priprema formu za unos podataka
+            </summary>
+            <param name="sender">Referenca na formu frmKnjigaPoZanru</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoZanru.dataGridView2_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "SelectionChanged" puni dataGridView sa podacima o knjizi i zanru
+            </summary>
+            <param name="sender">Referenca na dataGridView dataGridView2</param>
+            <param name="e">Dodatni podaci o događaju SelectionChanged</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoZanru.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu za pretraživanje knjige po žanru
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmKnjigaPoZanru.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoZanru.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoZanru.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNazivu.PrikaziKnjige">
+            <summary>
+            Funkcija za prikazivanje popisa knjiga i njihovih lokacija
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNazivu.btnPretrazi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" omogucuje pretrazivanje lokacije po nazivu knjige
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNazivu.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu za pretraživanje knjige po lokaciji
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmKnjigaPoNazivu.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNazivu.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmKnjigaPoNazivu.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDIzdavac.PrikaziIzdavaca">
+            <summary>
+            Funkcija za prikaz podataka o izdavacu iz baze
+            </summary>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDIzdavac.PretraživanjeIzdavaca_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load" pokrece funkciju PrikaziIzdavaca
+            </summary>
+            <param name="sender">Referenca na formu PretrazivanjeIzdavaca</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDIzdavac.btnPretrazi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" pretrazuje izdavace prema nazivu izdavaca
+            </summary>
+            <param name="sender">Referenca na gumb btnPretrazi</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDIzdavac.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" izlazi iz forme CRUDIzdavac
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.CRUDIzdavac.btnObrisi_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" brise podatke iz tablice Izdavaci
+            </summary>
+            <param name="sender">Referenca na gumb btnObris</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.CRUDIzdavac.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.CRUDIzdavac.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.CRUDIzdavac.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.frmPrijava.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara odgovarajuci izbornik za prijavljenog korisnika
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.frmPrijava.btnPosalji_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" provjerava podatke o korisniku i na temelju toga otvara odgovarajuci izbornik
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.frmPrijava.btnRegistracija_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu za registraciju korisnika frmRegistracija
+            </summary>
+            <param name="sender">Referenca na gumb btnRegistracija</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.frmPrijava.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu "Prijava"
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.frmPrijava.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.frmPrijava.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.frmPrijava.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmRegistracija.FrmRegistracija_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load" priprema formu registracija za unos podataka
+            </summary>
+            <param name="sender">Referenca na formu FrmRegistracija</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmRegistracija.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" upisuje podatke u bazu u tablicu "Korisici"
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmRegistracija.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu "Registracija"
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmRegistracija.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmRegistracija.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmRegistracija.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Knjižnica.FrmRegistriraniKorisnik.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmRegistriraniKorisnik.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmRegistriraniKorisnik.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosAutora.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu "Unos autora"
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmUnosAutora.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" salje podatke u bazu u tablicu "Autori"
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmUnosAutora.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosAutora.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmUnosAutora.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosIzdavaca.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" izlazi iz forme za unos izdavaca
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmUnosIzdavaca.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" upisuje podatke u bazu u tablicu "Izdavaci"
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmUnosIzdavaca.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosIzdavaca.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmUnosIzdavaca.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosKnjige.FrmUnosKnjige_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load" priprema formu "Unos knjige" za upisivanje podataka u bazu
+            </summary>
+            <param name="sender">Referenca na formu frmUnosKnjige</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmUnosKnjige.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu za unos knjiga
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmUnosKnjige.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosKnjige.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmUnosKnjige.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosLokacije.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  upisuje podatke u bazu u tablicu "Lokacija knjige"
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+        </member>
+        <member name="M:Knjižnica.FrmUnosLokacije.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu "Unos lokacije"
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmUnosLokacije.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosLokacije.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmUnosLokacije.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosZanra.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" salje podatke u bazu u tablicu "Zanr"
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+        </member>
+        <member name="M:Knjižnica.FrmUnosZanra.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara formu "Zanr"
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmUnosZanra.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmUnosZanra.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmUnosZanra.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnUrediBazu_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara izbornik zaposleniku "Uredi bazu"
+            </summary>
+            <param name="sender">Referenca na gumb btnUrediBazu</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnUnosAutora_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu frmUnosAutora
+            </summary>
+            <param name="sender">Referenca na gumb btnUnosAutora</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnUnosIzdavaca_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu frmUnosIzdavaca
+            </summary>
+            <param name="sender">Referenca na gumb btnUnosIzdavaca</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnUnosKnjige_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu frmUnosKnjige
+            </summary>
+            <param name="sender">Referenca na gumb btnUnosKnjige</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnUnosLokacije_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu frmUnosLokacije
+            </summary>
+            <param name="sender">Referenca na gumb btnUnosLokacije</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnUnosZanra_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu frmUnosZanra
+            </summary>
+            <param name="sender">Referenca na gumb btnUnosZanra</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnKnjigePoAutoru_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu za pretrazivenje knjige po nazivu autora
+            </summary>
+            <param name="sender">Referenca na gumb btnUKnjigePoAutoru</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnKnjigePoZanru_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu za pretrazivanje knjige po zanru
+            </summary>
+            <param name="sender">Referenca na gumb btnKnjigePoZanru</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnLokacija_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu pertaživanje lokacije po nazivu knjige
+            </summary>
+            <param name="sender">Referenca na gumb btnLokacija</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnKnjigaPoNalsovu_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu za pretrazivanje knjige po njenom nazivu
+            </summary>
+            <param name="sender">Referenca na gumb btnKnjigaPoNaslovu</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnClanarina_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu za unos clanarine 
+            </summary>
+            <param name="sender">Referenca na gumb btnClanarina</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnPosudba_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu za unos nove posudbe
+            </summary>
+            <param name="sender">Referenca na gumb btnPosudba</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnIzracun_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" otvara formu za kreiranje novog racuna
+            </summary>
+            <param name="sender">Referenca na gumb btnIzracun</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" zatvara glavni izbornik
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="F:Knjižnica.Zaposlenik.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.Zaposlenik.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmClanarina.FrmClanarina_Load(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Load"  priprema podatke za upis u tablicu Clanarina
+            </summary>
+            <param name="sender">Referenca na formu FrmClanarina</param>
+            <param name="e">Dodatni podaci o događaju Load</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmClanarina.btnIzlaz_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click"  zatvara formu za unos clanarina "Clanarina"
+            </summary>
+            <param name="sender">Referenca na gumb btnIzlaz</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmClanarina.btnPosalji_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "Click" upisuje podatke u bazu u tablicu "Clanarina"
+            </summary>
+            <param name="sender">Referenca na gumb btnPosalji</param>
+            <param name="e">Dodatni podaci o događaju Click</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmClanarina.cmbKorisnickoIme_SelectedValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "SelectedValueChanged" puni combobox sa podacima iz baze
+            </summary>
+            <param name="sender">Referenca na combobox cmbKorisnickoImes</param>
+            <param name="e">Dodatni podaci o događaju SelectedValueChanged</param>
+            
+        </member>
+        <member name="M:Knjižnica.FrmClanarina.cmbKorisnickoIme_Click(System.Object,System.EventArgs)">
+            <summary>
+            Na događaj "SelectedValueChanged"  na click prikazuje podatke iz baze za navedeni combobox
+            </summary>
+            <param name="sender">Referenca na combobox cmbKorisnickoIme</param>
+            <param name="e">Dodatni podaci o događaju SelectedValueChanged</param>
+            
+        </member>
+        <member name="F:Knjižnica.FrmClanarina.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Knjižnica.FrmClanarina.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Knjižnica.FrmClanarina.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Knjižnica.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Knjižnica.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Knjižnica.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
