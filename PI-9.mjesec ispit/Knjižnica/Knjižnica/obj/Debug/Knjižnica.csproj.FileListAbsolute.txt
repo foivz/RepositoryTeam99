@@ -378,3 +378,47 @@ C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\RdlCompile.cach
 C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\RdlCompile.compiled
 C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe.manifest
 C:\Users\Nino\Desktop\PI-predaja\Knjižnica\Knjižnica\obj\Debug\Knjižnica.application
+C:\Users\Ivan\Desktop\PI-predaja_ispit\XML dokumentacija\Knjižnica.exe.config
+C:\Users\Ivan\Desktop\PI-predaja_ispit\XML dokumentacija\Knjižnica.XML
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.pdb
+C:\Users\Ivan\Desktop\PI-predaja_ispit\XML dokumentacija\piBaza.sdf
+C:\Users\Ivan\Desktop\PI-predaja_ispit\XML dokumentacija\Knjižnica.exe.manifest
+C:\Users\Ivan\Desktop\PI-predaja_ispit\XML dokumentacija\Knjižnica.application
+C:\Users\Ivan\Desktop\PI-predaja_ispit\XML dokumentacija\Knjižnica.exe
+C:\Users\Ivan\Desktop\PI-predaja_ispit\XML dokumentacija\Knjižnica.pdb
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKorisnik.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDPosudba.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDRacun.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.IzbornikUrediBazu.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDAutor.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmIzbornik.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmIzradaRacuna.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmPosudba.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPregledSlobodnihKnjiga.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNaslovu.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDClanarina.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDKnjiga.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDLokacija.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDZanr.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoAutoru.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoZanru.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmKnjigaPoNazivu.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.CRUDIzdavac.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.frmPrijava.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Properties.Resources.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistracija.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmRegistriraniKorisnik.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosAutora.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosIzdavaca.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosKnjige.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosLokacije.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmUnosZanra.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.Zaposlenik.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.FrmClanarina.resources
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\RdlCompile.cache
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\RdlCompile.compiled
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.exe.manifest
+C:\Users\Ivan\Desktop\PI-predaja_ispit\Knjižnica\Knjižnica\obj\Debug\Knjižnica.application
